@@ -20,7 +20,7 @@ export const getData = (url,data,callFun=null) => {
 		},
 		method: 'GET', // *GET, POST, PUT, DELETE, etc.
 		redirect: 'follow', // manual, *follow, error
-		mode: 'cors', 
+		mode: 'no-cors', 
 		referrer: 'no-referrer', // *client, no-referrer
   }).then(response =>response.json()) // parses response to JSON
   .then(res =>{
