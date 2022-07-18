@@ -22,7 +22,10 @@ export const getData = (url,data,callFun=null) => {
 		redirect: 'follow', // manual, *follow, error
 		mode: 'no-cors', 
 		referrer: 'no-referrer', // *client, no-referrer
-  }).then(response =>response.json()) // parses response to JSON
+  }).then(response =>{
+	  console.log(response);
+	  return response.json()
+	}) // parses response to JSON
   .then(res =>{
 	  if(null!=callFun){
 			callFun(res);
