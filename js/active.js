@@ -1,5 +1,5 @@
-import { postData } from './component/fetchUtil.js';
-import { getData } from './component/fetchUtil.js';
+import { postData } from './component/ajaxUtil.js';
+import { getData } from './component/ajaxUtil.js';
 
 (function ($) {
     'use strict';
