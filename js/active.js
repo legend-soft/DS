@@ -102,7 +102,7 @@ import { getData } from './component/ajaxUtil.js';
 		//初始化数据与状态
 		code=GetQueryValue('code');
 		if(null==code){
-				showAlert("提示","请重新扫码或NFC",function(){
+				showAlert("提示","请重新扫码或NFC触碰",function(){
 					window.location.href=confData.home;
 				});
 		}
@@ -133,7 +133,7 @@ import { getData } from './component/ajaxUtil.js';
 					showAlert("错误！",loadData.msg);
 					return;
 				}
-				showAlert(null,loadData.msg);
+				showAlert(null,"已成功提醒，请耐心稍等！");
 			});
 		});
 
@@ -149,7 +149,7 @@ import { getData } from './component/ajaxUtil.js';
 					showAlert("错误！",loadData.msg);
 					return;
 				}
-				showAlert(null,loadData.msg);
+				showAlert(null,"已成功提醒，请耐心稍等！");
 			});
 		});
 
