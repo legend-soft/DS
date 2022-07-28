@@ -19,16 +19,16 @@
 	font-weight:400;
 	font-style:normal;
 }
-@font-face{
-	font-family:hk-king-regular;
-	src:url(../fonts/HuaKangJinGangHei-Regular-2.eot);
-	src:url(../fonts/HuaKangJinGangHei-Regular-2.eot?hqtb4h#iefix) format("embedded-opentype"),
-	url(../fonts/HuaKangJinGangHei-Regular-2.ttf) format("truetype"),
-	url(../fonts/HuaKangJinGangHei-Regular-2.woff) format("woff"),
-	url(../fonts/HuaKangJinGangHei-Regular-2.svg) format("svg");
-	font-weight:400;
-	font-style:normal;
-}
+/*@font-face{*/
+/*	font-family:hk-king-regular;*/
+/*	src:url(../fonts/HuaKangJinGangHei-Regular-2.eot);*/
+/*	src:url(../fonts/HuaKangJinGangHei-Regular-2.eot?hqtb4h#iefix) format("embedded-opentype"),*/
+/*	url(../fonts/HuaKangJinGangHei-Regular-2.ttf) format("truetype"),*/
+/*	url(../fonts/HuaKangJinGangHei-Regular-2.woff) format("woff"),*/
+/*	url(../fonts/HuaKangJinGangHei-Regular-2.svg) format("svg");*/
+/*	font-weight:400;*/
+/*	font-style:normal;*/
+/*}*/
 
 @keyframes turnAround {
 	from {transform: rotate(0deg);}
