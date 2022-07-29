@@ -17,10 +17,12 @@ import { getData } from './component/ajaxUtil.js';
 
 
     var browserWindow = $(window);
+    var ctnMask=$('.preloader');
     // :: 1.0 Preloader Active Code
     browserWindow.on('load', function () {
-        $('.preloader').fadeOut('slow', function () {
-            $(this).remove();
+		ctnMask.fadeOut('slow', function () {
+            // $(this).remove();
+			ctnMask.addClass("ctnMask");
         });
     });
   
@@ -67,7 +69,7 @@ import { getData } from './component/ajaxUtil.js';
 		let alertMsg=$('#alertModalBody');
 		let alertModal=$('#alertModal');
 		let alertModalHiddenFun=null;
-		
+
 
 		let confData={
 			"user":null,
@@ -86,7 +88,7 @@ import { getData } from './component/ajaxUtil.js';
 				alertTitle.html(title);
 				alertMsg.html(msg);
 				alertModalHiddenFun=func;
-				alertModal.modal();
+				alertModal.delay('slow').modal();
 		}
 
 
@@ -109,7 +111,9 @@ import { getData } from './component/ajaxUtil.js';
 
 		//呼叫车主
 		$('#callMobile').on("click",function(e){
+			ctnMask.fadeIn();
 			getData(confData.callUrl, {code: code},function (loadData){
+				ctnMask.fadeOut('fast');
 				if(null==loadData){
 					return;
 				}
@@ -123,7 +127,9 @@ import { getData } from './component/ajaxUtil.js';
 
 		//消息提醒挪车
 		$('#sendMSG').on("click",function(e){
+			ctnMask.fadeIn();
 			getData(confData.msgUrl, {code: code},function (loadData){
+				ctnMask.fadeOut('fast');
 				if(null==loadData){
 					return;
 				}
@@ -139,7 +145,9 @@ import { getData } from './component/ajaxUtil.js';
 
 		//短信通知挪车
 		$('#sendSMS').on("click",function(e){
+			ctnMask.fadeIn();
 			getData(confData.smsUrl, {code: code},function (loadData){
+				ctnMask.fadeOut('fast');
 				if(null==loadData){
 					return;
 				}

@@ -122,7 +122,9 @@ img {
   right: 0;
   bottom: 0;
   z-index: 999999;
-  overflow: hidden; 
+  overflow: hidden;
+  display: -ms-flexbox;
+  display: flex;
 }
 .preloader .preloader-circle {
     width: 80px;
@@ -154,6 +156,15 @@ img {
       max-width: 45px; 
 	  width: 80%;
 	  margin: 3px 0 0 3px;
+}
+
+
+.ctnMask{
+    background-color: unset;
+}
+.ctnMask .preloader-circle{
+    box-shadow: unset;
+    background-color: unset;
 }
 
 
@@ -278,9 +289,6 @@ header{
 
 
 
-
-
-
 .footer-area {
     width: 100%;
     z-index: 1;
@@ -326,8 +334,7 @@ header{
     -moz-filter: blur(20px);
     -o-filter: blur(20px);
     filter: blur(20px);
-    background-color: #000000b3;
-
+    /*background-color: #00000029;*/
 	overflow-x: hidden;
     overflow-y: auto;
 	position: fixed;
