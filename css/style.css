@@ -74,7 +74,8 @@ body {
   font-size: 16px;
   	background-size: cover;
     background-repeat: repeat-y;
-    background-image: url(https://cdn.jsdelivr.net/gh/legend-soft/ds@master/img/bg.jpg);
+/*    background-image: url(https://cdn.jsdelivr.net/gh/legend-soft/ds@master/img/bg.jpg);*/
+    background-image: url(https://www.ds.com.cn/ds-web/assets/images/service/brand/load-bg.jpg);
 	color: #fff;
 }
 
