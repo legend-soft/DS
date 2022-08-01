@@ -1,24 +1,58 @@
 
+/*@font-face{*/
+/*	font-family:dstitleoffice-Regular;*/
+/*	src:url(../fonts/DSTitleOffice-Regular.eot);*/
+/*	src:url(../fonts/DSTitleOffice-Regular.eot?hqtb4h#iefix) format("embedded-opentype"),*/
+/*	url(../fonts/DSTitleOffice-Regular.ttf) format("truetype"),*/
+/*	url(../fonts/DSTitleOffice-Regular.woff) format("woff"),*/
+/*	url(../fonts/DSTitleOffice-Regular.svg) format("svg");*/
+/*	font-weight:400;*/
+/*	font-style:normal;*/
+/*}*/
+/*@font-face{*/
+/*	font-family:dsa-regular;*/
+/*	src:url(../fonts/DSTitleOffice-Regular.eot);*/
+/*	src:url(../fonts/DSTitleOffice-Regular.eot?hqtb4h#iefix) format("embedded-opentype"),*/
+/*	url(../fonts/DSTitleOffice-Regular.ttf) format("truetype"),*/
+/*	url(../fonts/DSTitleOffice-Regular.woff) format("woff"),*/
+/*	url(../fonts/DSTitleOffice-Regular.svg) format("svg");*/
+/*	font-weight:400;*/
+/*	font-style:normal;*/
+/*}*/
+
 @font-face{
-	font-family:dstitleoffice-Regular;
-	src:url(../fonts/DSTitleOffice-Regular.eot);
-	src:url(../fonts/DSTitleOffice-Regular.eot?hqtb4h#iefix) format("embedded-opentype"),
-	url(../fonts/DSTitleOffice-Regular.ttf) format("truetype"),
-	url(../fonts/DSTitleOffice-Regular.woff) format("woff"),
-	url(../fonts/DSTitleOffice-Regular.svg) format("svg");
+    font-family:dstitleoffice-Regular;
+    src:url(https://www.ds.com.cn/ds-web/assets/fonts/DSTitleOffice-Regular.eot);
+    src:url(https://www.ds.com.cn/ds-web/assets/fonts/DSTitleOffice-Regular.eot?hqtb4h#iefix) format("embedded-opentype"),
+    url(https://www.ds.com.cn/ds-web/assets/fonts/DSTitleOffice-Regular.ttf) format("truetype"),
+    url(https://www.ds.com.cn/ds-web/assets/fonts/DSTitleOffice-Regular.woff) format("woff"),
+    url(https://www.ds.com.cn/ds-web/assets/fonts/DSTitleOffice-Regular.svg) format("svg");
+    font-weight:400;
+    font-style:normal;
+}
+@font-face{
+    font-family:dsa-regular;
+    src:url(https://www.ds.com.cn/ds-web/assets/fonts/DSTitleOffice-Regular.eot);
+    src:url(https://www.ds.com.cn/ds-web/assets/fonts/DSTitleOffice-Regular.eot?hqtb4h#iefix) format("embedded-opentype"),
+    url(https://www.ds.com.cn/ds-web/assets/fonts/DSTitleOffice-Regular.ttf) format("truetype"),
+    url(https://www.ds.com.cn/ds-web/assets/fonts/DSTitleOffice-Regular.woff) format("woff"),
+    url(https://www.ds.com.cn/ds-web/assets/fonts/DSTitleOffice-Regular.svg) format("svg");
+    font-weight:400;
+    font-style:normal;
+}
+
+@font-face{
+	font-family:hk-king-regular;
+	src:url(https://www.ds.com.cn/ds-web/assets/fonts/HuaKangJinGangHei-Regular-2.eot);
+	src:url(https://www.ds.com.cn/ds-web/assets/fonts/HuaKangJinGangHei-Regular-2.eot?hqtb4h#iefix) format("embedded-opentype"),
+	url(https://www.ds.com.cn/ds-web/assets/fonts/HuaKangJinGangHei-Regular-2.ttf) format("truetype"),
+	url(https://www.ds.com.cn/ds-web/assets/fonts/HuaKangJinGangHei-Regular-2.woff) format("woff"),
+	url(https://www.ds.com.cn/ds-web/assets/fonts/HuaKangJinGangHei-Regular-2.svg) format("svg");
 	font-weight:400;
 	font-style:normal;
 }
-@font-face{
-	font-family:dsa-regular;
-	src:url(../fonts/DSTitleOffice-Regular.eot);
-	src:url(../fonts/DSTitleOffice-Regular.eot?hqtb4h#iefix) format("embedded-opentype"),
-	url(../fonts/DSTitleOffice-Regular.ttf) format("truetype"),
-	url(../fonts/DSTitleOffice-Regular.woff) format("woff"),
-	url(../fonts/DSTitleOffice-Regular.svg) format("svg");
-	font-weight:400;
-	font-style:normal;
-}
+
+
 /*@font-face{*/
 /*	font-family:hk-king-regular;*/
 /*	src:url(../fonts/HuaKangJinGangHei-Regular-2.eot);*/
@@ -371,7 +405,8 @@ header{
 
 @media only screen and (max-width: 720px) {
     body {
-        background-image: url(../img/load-bg.jpg);
+        /*background-image: url(../img/load-bg.jpg);*/
+        background-image: url(https://www.ds.com.cn/ds-web/assets/images/service/brand/mobile/load-bg.jpg);
     }
 
 	.button-low {
