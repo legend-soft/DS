@@ -272,7 +272,7 @@ header{
     flex-wrap: wrap;
     align-content: center;
     height: 10rem;
-	margin: 2rem auto;
+	margin: 0 auto 2rem auto;
 }
 
 
@@ -418,7 +418,7 @@ header{
 		margin: -1rem 1rem;
 	}
 	.button-panel {
-		margin: 3rem auto;
+		margin: 0 auto 3rem auto;
 	}
 	.button-panel{
 		justify-content: space-around;
@@ -438,6 +438,7 @@ header{
 
 	.hero-banner-container h1 {
 		font-size: 3.375rem;
+		line-height: 4rem;
 	}
 }
 
